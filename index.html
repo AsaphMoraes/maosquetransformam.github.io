@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ONG Mãos que Transformam | Juntos, transformamos realidades</title>
+  <meta name="description" content="A ONG Mãos que Transformam atua na inclusão social, educação, saúde e meio ambiente em comunidades vulneráveis. Saiba como ajudar!">
+  <meta name="author" content="ONG Mãos que Transformam">
+  
+  <!-- Open Graph / Facebook / WhatsApp -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.maosquetransformam.org.br/">
+  <meta property="og:title" content="ONG Mãos que Transformam | Juntos, transformamos realidades">
+  <meta property="og:description" content="Promovemos a inclusão social, educação e sustentabilidade em comunidades vulneráveis. Conheça nossos projetos.">
+  <meta property="og:image" content="img/og-image.jpg">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="ONG Mãos que Transformam">
+  <meta name="twitter:description" content="Promovemos a inclusão social, educação e sustentabilidade em comunidades vulneráveis.">
+  <meta name="twitter:image" content="img/og-image.jpg">
+
+  <!-- Favicon -->
+  <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/components.css">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+
+  <!-- JSON-LD Structured Data (NGO) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "NGO",
+    "name": "Mãos que Transformam",
+    "url": "https://www.maosquetransformam.org.br",
+    "logo": "https://www.maosquetransformam.org.br/img/logo.svg",
+    "foundingDate": "2010-03-15",
+    "sameAs": [
+      "https://instagram.com/maosquetransformam",
+      "https://facebook.com/maosquetransformam",
+      "https://linkedin.com/company/maosquetransformam",
+      "https://youtube.com/maosquetransformam"
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Rua da Solidariedade, 450",
+      "addressLocality": "São Paulo",
+      "addressRegion": "SP",
+      "postalCode": "04101-000",
+      "addressCountry": "BR"
+    },
+    "telephone": "+551134567890",
+    "email": "contato@maosquetransformam.org.br"
+  }
+  </script>
+</head>
+<body>
+
+  <!-- Link de Acessibilidade Diretamente para Conteúdo -->
+  <a href="#conteudo-principal" class="skip-link">Pular para o conteúdo principal</a>
+
+  <!-- Header / Menu de Navegação -->
+  <header class="header">
+    <div class="container header-container">
+      <a href="index.html" class="logo" aria-label="Página inicial - ONG Mãos que Transformam">
+        <img src="img/logo.svg" alt="Logotipo da ONG Mãos que Transformam" width="180" height="60">
+      </a>
+
+      <button class="menu-toggle" aria-expanded="false" aria-controls="menu-principal" aria-label="Abrir menu de navegação">
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+      </button>
+
+      <nav id="menu-principal" class="nav-menu" aria-label="Navegação principal">
+        <ul class="menu-lista">
+          <li><a href="index.html" class="nav-link ativo" aria-current="page">Início</a></li>
+          <li class="dropdown">
+            <a href="projetos.html" class="nav-link">Projetos</a>
+            <ul class="dropdown-menu">
+              <li><a href="projetos.html#educacao">Educação</a></li>
+              <li><a href="projetos.html#saude">Saúde</a></li>
+              <li><a href="projetos.html#meio-ambiente">Meio Ambiente</a></li>
+              <li><a href="projetos.html#capacitacao">Capacitação</a></li>
+            </ul>
+          </li>
+          <li><a href="projetos.html#voluntariado" class="nav-link">Voluntariado</a></li>
+          <li><a href="projetos.html#doe" class="nav-link btn-destaque-nav">Doe Agora</a></li>
+          <li><a href="cadastro.html" class="nav-link">Cadastro</a></li>
+          <li><a href="#contato" class="nav-link">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo-principal">
+
+    <!-- Hero Section -->
+    <section class="hero-section" aria-label="Destaque principal">
+      <div class="container hero-container">
+        <div class="hero-conteudo">
+          <h1>Juntos, transformamos realidades</h1>
+          <p>Promovemos a inclusão social, a educação e a sustentabilidade em comunidades vulneráveis por meio de projetos de impacto duradouro.</p>
+          <div class="hero-botoes">
+            <a href="projetos.html#doe" class="btn btn-primario" data-abrir-modal>Quero Doar</a>
+            <a href="cadastro.html" class="btn btn-secundario">Seja Voluntário</a>
+          </div>
+        </div>
+        <div class="hero-imagem-wrapper">
+          <img src="img/hero-banner.webp" alt="Voluntários e moradores trabalhando juntos em uma horta comunitária em São Paulo" width="1920" height="1080" loading="eager" class="hero-imagem">
+        </div>
+      </div>
+    </section>
+
+    <!-- Missão, Visão e Valores -->
+    <section class="mision-vision-section" aria-labelledby="titulo-institucional">
+      <div class="container">
+        <h2 id="titulo-institucional" class="titulo-secao text-center">Nossa Essência</h2>
+        <div class="grid-cards">
+          
+          <article class="card card-institucional">
+            <div class="card-icone" aria-hidden="true">🤝</div>
+            <h3>Missão</h3>
+            <p>Promover a inclusão social, a educação e a sustentabilidade em comunidades vulneráveis, por meio de projetos que geram impacto duradouro e transformam vidas.</p>
+          </article>
+
+          <article class="card card-institucional">
+            <div class="card-icone" aria-hidden="true">🌍</div>
+            <h3>Visão</h3>
+            <p>Ser referência nacional em transformação social até 2030, impactando mais de 100 mil pessoas em situação de vulnerabilidade com dignidade e autonomia.</p>
+          </article>
+
+          <article class="card card-institucional">
+            <div class="card-icone" aria-hidden="true">📚</div>
+            <h3>Valores</h3>
+            <ul>
+              <li><strong>Solidariedade:</strong> Empatia e respeito</li>
+              <li><strong>Sustentabilidade:</strong> Cuidado com o planeta</li>
+              <li><strong>Transparência:</strong> Prestação de contas total</li>
+              <li><strong>Equidade:</strong> Combate rigoroso às desigualdades</li>
+            </ul>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Números de Impacto (Contadores) -->
+    <section class="impacto-section" aria-labelledby="titulo-impacto">
+      <div class="container">
+        <h2 id="titulo-impacto" class="titulo-secao text-center">Nosso Impacto em Números</h2>
+        <div class="grid-contadores">
+          
+          <div class="contador-item">
+            <span class="contador-numero" data-contador="15000">0</span>
+            <span class="contador-rotulo">Pessoas Atendidas</span>
+          </div>
+
+          <div class="contador-item">
+            <span class="contador-numero" data-contador="4200">0</span>
+            <span class="contador-rotulo">Crianças e Adolescentes</span>
+          </div>
+
+          <div class="contador-item">
+            <span class="contador-numero" data-contador="350">0</span>
+            <span class="contador-rotulo">Voluntários Ativos</span>
+          </div>
+
+          <div class="contador-item">
+            <span class="contador-numero" data-contador="48">0</span>
+            <span class="contador-rotulo">Projetos Concluídos</span>
+          </div>
+
+          <div class="contador-item">
+            <span class="contador-numero" data-contador="25000">0</span>
+            <span class="contador-rotulo">Cestas Básicas Entregues</span>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Projetos em Destaque -->
+    <section class="projetos-destaque-section" aria-labelledby="titulo-projetos-destaque">
+      <div class="container">
+        <h2 id="titulo-projetos-destaque" class="titulo-secao text-center">Projetos em Destaque</h2>
+        <div class="grid-cards">
+
+          <!-- Card 1 -->
+          <article class="card card-projeto">
+            <img src="img/projetos/projeto-educacao.webp" alt="Crianças em sala de aula comunitária erguendo as mãos para participar" width="800" height="600" loading="lazy">
+            <div class="card-corpo">
+              <span class="badge badge-educacao">Educação</span>
+              <h3>Educação para Todos</h3>
+              <p>Aulas de reforço escolar, alfabetização e oficinas culturais para crianças do ensino fundamental.</p>
+              <a href="projetos.html" class="btn btn-outline">Saiba mais</a>
+            </div>
+          </article>
+
+          <!-- Card 2 -->
+          <article class="card card-projeto">
+            <img src="img/projetos/projeto-verde.webp" alt="Voluntários plantando mudas de árvores em área de reflorestamento" width="800" height="600" loading="lazy">
+            <div class="card-corpo">
+              <span class="badge badge-meio-ambiente">Meio Ambiente</span>
+              <h3>Verde Vivo</h3>
+              <p>Reflorestamento de áreas urbanas e criação de hortas comunitárias autossustentáveis.</p>
+              <a href="projetos.html" class="btn btn-outline">Saiba mais</a>
+            </div>
+          </article>
+
+          <!-- Card 3 -->
+          <article class="card card-projeto">
+            <img src="img/projetos/projeto-capacitacao.webp" alt="Adultos em sala de informática aprendendo habilidades digitais" width="800" height="600" loading="lazy">
+            <div class="card-corpo">
+              <span class="badge badge-capacitacao">Capacitação</span>
+              <h3>Mãos que Capacitam</h3>
+              <p>Cursos profissionalizantes de informática, gastronomia e artesanato para geração de renda.</p>
+              <a href="projetos.html" class="btn btn-outline">Saiba mais</a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Depoimentos -->
+    <section class="depoimentos-section" aria-labelledby="titulo-depoimentos">
+      <div class="container">
+        <h2 id="titulo-depoimentos" class="titulo-secao text-center">Quem Transforma Conosco</h2>
+        <div class="grid-cards">
+
+          <article class="card card-depoimento">
+            <img src="img/depoimentos/depoimento-ana.webp" alt="Foto de perfil de Ana Carolina Silva" width="400" height="400" loading="lazy" class="depoimento-foto">
+            <blockquote>"O apoio da ONG no reforço escolar transformou o futuro dos meus filhos e abriu portas que eu nunca imaginei."</blockquote>
+            <p class="depoimento-autor"><strong>Ana Carolina Silva</strong></p>
+            <p class="depoimento-cargo">Ex-beneficiária e Educadora</p>
+          </article>
+
+          <article class="card card-depoimento">
+            <img src="img/depoimentos/depoimento-carlos.webp" alt="Foto de perfil de Carlos Mendes" width="400" height="400" loading="lazy" class="depoimento-foto">
+            <blockquote>"Ser voluntário na Mãos que Transformam me deu um propósito real. Cada ação comunitária renova a esperança."</blockquote>
+            <p class="depoimento-autor"><strong>Carlos Mendes</strong></p>
+            <p class="depoimento-cargo">Voluntário há 5 anos</p>
+          </article>
+
+          <article class="card card-depoimento">
+            <img src="img/depoimentos/depoimento-mariana.webp" alt="Foto de perfil de Mariana Costa" width="400" height="400" loading="lazy" class="depoimento-foto">
+            <blockquote>"A transparência na prestação de contas e o impacto visível nas comunidades me fazem doar todos os meses."</blockquote>
+            <p class="depoimento-autor"><strong>Mariana Costa</strong></p>
+            <p class="depoimento-cargo">Doadora Mensal</p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter-section" aria-labelledby="titulo-newsletter">
+      <div class="container">
+        <div class="newsletter-box">
+          <h2 id="titulo-newsletter">Fique por dentro das nossas ações</h2>
+          <p>Receba notícias, relatórios de impacto e convites para eventos diretamente no seu e-mail.</p>
+          <form id="form-newsletter" class="form-inline" novalidate>
+            <div class="campo-grupo">
+              <label for="newsletter-email" class="sr-only">Endereço de e-mail</label>
+              <input type="email" id="newsletter-email" name="email" placeholder="Digite seu e-mail principal" required>
+            </div>
+            <button type="submit" class="btn btn-destaque">Inscrever-se</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção de Contato -->
+    <section id="contato" class="contato-section" aria-labelledby="titulo-contato">
+      <div class="container">
+        <h2 id="titulo-contato" class="titulo-secao text-center">Entre em Contato</h2>
+        <div class="grid-contato">
+
+          <!-- Dados de Contato -->
+          <div class="contato-info">
+            <h3>Fale Conosco</h3>
+            <p><strong>Endereço:</strong> Rua da Solidariedade, 450 — Vila Mariana, São Paulo/SP — CEP 04101-000</p>
+            <p><strong>Telefone:</strong> <a href="tel:1134567890">(11) 3456-7890</a></p>
+            <p><strong>WhatsApp:</strong> <a href="https://wa.me/5511987654321" target="_blank" rel="noopener noreferrer">(11) 98765-4321</a></p>
+            <p><strong>E-mail:</strong> <a href="mailto:contato@maosquetransformam.org.br">contato@maosquetransformam.org.br</a></p>
+            
+            <div class="contato-mapa">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.402488344589!2d-46.6373!3d-23.5898!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjPCsDM1JzIzLjMiUyA0NsKwMzgnMTQuMyJX!5e0!3m2!1spt-BR!2sbr!4v1620000000000!5m2!1spt-BR!2sbr" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" title="Mapa com localização da ONG"></iframe>
+            </div>
+          </div>
+
+          <!-- Formulário Rápido de Contato -->
+          <div class="contato-formulario">
+            <h3>Envie uma Mensagem</h3>
+            <form id="form-contato-rapido" action="#" method="POST" novalidate>
+              <div class="campo-grupo">
+                <label for="contato-nome">Nome Completo</label>
+                <input type="text" id="contato-nome" name="nome" required minlength="3">
+              </div>
+
+              <div class="campo-grupo">
+                <label for="contato-email">E-mail</label>
+                <input type="email" id="contato-email" name="email" required>
+              </div>
+
+              <div class="campo-grupo">
+                <label for="contato-mensagem">Mensagem</label>
+                <textarea id="contato-mensagem" name="mensagem" rows="4" required minlength="10"></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primario">Enviar Mensagem</button>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Rodapé -->
+  <footer class="footer">
+    <div class="container grid-footer">
+      
+      <div class="footer-coluna">
+        <img src="img/logo.svg" alt="Logotipo ONG Mãos que Transformam" width="160" height="50" loading="lazy">
+        <p>Juntos, transformamos realidades através da solidariedade, educação e sustentabilidade desde 2010.</p>
+      </div>
+
+      <div class="footer-coluna">
+        <h3>Links Rápidos</h3>
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="projetos.html">Nossos Projetos</a></li>
+          <li><a href="projetos.html#voluntariado">Voluntariado</a></li>
+          <li><a href="projetos.html#doe">Faça uma Doação</a></li>
+          <li><a href="cadastro.html">Cadastro de Voluntário</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-coluna">
+        <h3>Projetos</h3>
+        <ul>
+          <li><a href="projetos.html#educacao">Educação para Todos</a></li>
+          <li><a href="projetos.html#meio-ambiente">Verde Vivo</a></li>
+          <li><a href="projetos.html#capacitacao">Mãos que Capacitam</a></li>
+          <li><a href="projetos.html#saude">Saúde em Ação</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-coluna">
+        <h3>Redes Sociais</h3>
+        <ul class="redes-sociais">
+          <li><a href="https://instagram.com/maosquetransformam" target="_blank" rel="noopener noreferrer" aria-label="Instagram da ONG">Instagram</a></li>
+          <li><a href="https://facebook.com/maosquetransformam" target="_blank" rel="noopener noreferrer" aria-label="Facebook da ONG">Facebook</a></li>
+          <li><a href="https://linkedin.com/company/maosquetransformam" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn da ONG">LinkedIn</a></li>
+          <li><a href="https://youtube.com/maosquetransformam" target="_blank" rel="noopener noreferrer" aria-label="YouTube da ONG">YouTube</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container text-center">
+        <p>&copy; 2026 ONG Mãos que Transformam — CNPJ 12.345.678/0001-90. Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
