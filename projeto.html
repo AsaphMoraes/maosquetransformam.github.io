@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projetos e Doações | ONG Mãos que Transformam</title>
+  <meta name="description" content="Conheça nossos projetos de educação, saúde, meio ambiente e capacitação. Ajude a financiar ações de impacto social!">
+  <meta name="author" content="ONG Mãos que Transformam">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.maosquetransformam.org.br/projetos.html">
+  <meta property="og:title" content="Projetos Social | ONG Mãos que Transformam">
+  <meta property="og:description" content="Confira as metas de arrecadação e ajude a transformar vidas em comunidades vulneráveis.">
+  <meta property="og:image" content="img/og-image.jpg">
+
+  <!-- Favicon -->
+  <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/components.css">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Link de Acessibilidade -->
+  <a href="#conteudo-principal" class="skip-link">Pular para o conteúdo principal</a>
+
+  <!-- Header / Navegação -->
+  <header class="header">
+    <div class="container header-container">
+      <a href="index.html" class="logo" aria-label="Página inicial - ONG Mãos que Transformam">
+        <img src="img/logo.svg" alt="Logotipo da ONG Mãos que Transformam" width="180" height="60">
+      </a>
+
+      <button class="menu-toggle" aria-expanded="false" aria-controls="menu-principal" aria-label="Abrir menu de navegação">
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+      </button>
+
+      <nav id="menu-principal" class="nav-menu" aria-label="Navegação principal">
+        <ul class="menu-lista">
+          <li><a href="index.html" class="nav-link">Início</a></li>
+          <li class="dropdown">
+            <a href="projetos.html" class="nav-link ativo" aria-current="page">Projetos</a>
+            <ul class="dropdown-menu">
+              <li><a href="projetos.html#educacao">Educação</a></li>
+              <li><a href="projetos.html#saude">Saúde</a></li>
+              <li><a href="projetos.html#meio-ambiente">Meio Ambiente</a></li>
+              <li><a href="projetos.html#capacitacao">Capacitação</a></li>
+            </ul>
+          </li>
+          <li><a href="#voluntariado" class="nav-link">Voluntariado</a></li>
+          <li><a href="#doe" class="nav-link btn-destaque-nav">Doe Agora</a></li>
+          <li><a href="cadastro.html" class="nav-link">Cadastro</a></li>
+          <li><a href="index.html#contato" class="nav-link">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo-principal">
+
+    <!-- Hero da Página + Breadcrumb -->
+    <section class="pagina-header">
+      <div class="container">
+        <nav aria-label="Navegação estrutural (Breadcrumb)">
+          <ol class="breadcrumb">
+            <li><a href="index.html">Início</a></li>
+            <li aria-current="page">Projetos</li>
+          </ol>
+        </nav>
+        <h1>Nossos Projetos Sociais</h1>
+        <p>Conheça as iniciativas ativas, acompanhe as metas financeiras e escolha como causar impacto hoje.</p>
+      </div>
+    </section>
+
+    <!-- Filtros de Projetos -->
+    <section class="filtros-section">
+      <div class="container text-center">
+        <div class="filtros-botoes" role="tablist" aria-label="Filtrar projetos por categoria">
+          <button class="btn-filtro ativo" data-filtro="todos" role="tab" aria-selected="true">Todos</button>
+          <button class="btn-filtro" data-filtro="educacao" role="tab" aria-selected="false">Educação</button>
+          <button class="btn-filtro" data-filtro="saude" role="tab" aria-selected="false">Saúde</button>
+          <button class="btn-filtro" data-filtro="meio-ambiente" role="tab" aria-selected="false">Meio Ambiente</button>
+          <button class="btn-filtro" data-filtro="capacitacao" role="tab" aria-selected="false">Capacitação</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Grid de 6 Projetos -->
+    <section class="projetos-grid-section" aria-label="Lista de projetos">
+      <div class="container">
+        <div class="grid-cards">
+
+          <!-- Projeto 1 -->
+          <article class="card card-projeto-detalhado" data-categoria="educacao" id="educacao">
+            <img src="img/projetos/projeto-educacao.webp" alt="Crianças em sala de aula comunitária" width="800" height="600" loading="lazy">
+            <div class="card-corpo">
+              <span class="badge badge-educacao">Educação</span>
+              <h3>Educação para Todos</h3>
+              <p>Reforço escolar e oficinas de leitura para 320 crianças em comunidades vulneráveis.</p>
+              
+              <div class="progresso-info">
+                <div class="barra-progresso-fundo">
+                  <div class="barra-progresso-preenchimento" style="width: 65%;"></div>
+                </div>
+                <div class="progresso-valores">
+                  <span><strong>Arrecadado:</strong> R$ 32.500</span>
+                  <span><strong>Meta:</strong> R$ 50.000 (65%)</span>
+                </div>
+              </div>
+              <p class="beneficiarios"><strong>Beneficiários:</strong> 320 crianças</p>
+              <button class="btn btn-primario full-width" data-abrir-modal data-projeto="Educação para Todos">Apoiar Projeto</button>
+            </div>
+          </article>
+
+          <!-- Projeto 2 -->
+          <article class="card card-projeto-detalhado" data-categoria="meio-ambiente" id="meio-ambiente">
+            <img src="img/projetos/projeto-verde.webp" alt="Voluntários em área de reflorestamento" width="800" height="600" loading="lazy">
+            <div class="card-corpo">
+              <span class="badge badge-meio-ambiente">Meio Ambiente</span>
+              <h3>Verde Vivo</h3>
+              <p>Plantio de mudas nativas e implantação de hortas comunitárias orgânicas.</p>
+              
+              <div class="progresso-info">
+                <div class="barra-progresso-fundo">
+                  <div class="barra-progresso-preenchimento" style="width: 70%;"></div>
+                </div>
+                <div class="progresso-valores">
+                  <span><strong>Arrecadado:</strong> R$ 56.000</span>
+                  <span><strong>Meta:</strong> R$ 80.000 (70%)</span>
+                </div>
+              </div>
+              <p class="beneficiarios"><strong>Beneficiários:</strong> 1.500 moradores</p>
+              <button class="btn btn-primario full-width" data-abrir-modal data-projeto="Verde Vivo">Apoiar Projeto</button>
+            </div>
+          </article>
+
+          <!-- Projeto 3 -->
+          <article class="card card-projeto-detalhado" data-categoria="capacitacao" id="capacitacao">
+            <img src="img/projetos/projeto-capacitacao.webp" alt="Alunos em aula de tecnologia e informática" width="800" height="600" loading="lazy">
+            <div class="card-corpo">
+              <span class="badge badge-capacitacao">Capacitação</span>
+              <h3>Mãos que Capacitam</h3>
+              <p>Formação profissional em informática e gestão básica para jovens e adultos.</p>
+              
+              <div class="progresso-info">
+                <div class="barra-progresso-fundo">
+                  <div class="barra-progresso-preenchimento" style="width: 55%;"></div>
+                </div>
+                <div class="progresso-valores">
+                  <span><strong>Arrecadado:</strong> R$ 22.000</span>
+                  <span><strong>Meta:</strong> R$ 40.000 (55%)</span>
+                </div>
+              </div>
+              <p class="beneficiarios"><strong>Beneficiários:</strong> 180 alunos</p>
+              <button class="btn btn-primario full-width" data-abrir-modal data-projeto="Mãos que Capacitam">Apoiar Projeto</button>
+            </div>
+          </article>
+
+          <!-- Projeto 4 -->
+          <article class="card card-projeto-detalhado" data-categoria="saude" id="saude">
+            <img src="img/projetos/projeto-saude.webp" alt="Atendimento médico comunitário ao ar livre" width="800" height="600" loading="lazy">
+            <div class="card-corpo">
+              <span class="badge badge-saude">Saúde</span>
+              <h3>Saúde em Ação</h3>
+              <p>Atendimentos preventivos, exames de rotina e apoio psicológico gratuito.</p>
+              
+              <div class="progresso-info">
+                <div class="barra-progresso-fundo">
+                  <div class="barra-progresso-preenchimento" style="width: 43%;"></div>
+                </div>
+                <div class="progresso-valores">
+                  <span><strong>Arrecadado:</strong> R$ 43.000</span>
+                  <span><strong>Meta:</strong> R$ 100.000 (43%)</span>
+                </div>
+              </div>
+              <p class="beneficiarios"><strong>Beneficiários:</strong> 2.000 pessoas</p>
+              <button class="btn btn-primario full-width" data-abrir-modal data-projeto="Saúde em Ação">Apoiar Projeto</button>
+            </div>
+          </article>
+
+          <!-- Projeto 5 -->
+          <article class="card card-projeto-detalhado" data-categoria="saude">
+            <img src="img/projetos/projeto-prato.webp" alt="Voluntários montando cestas de alimentos" width="800" height="600" loading="lazy">
+            <div class="card-corpo">
+              <span class="badge badge-saude">Saúde</span>
+              <h3>Prato Cheio</h3>
+              <p>Segurança alimentar através da distribuição mensal de alimentos nutritivos.</p>
+              
+              <div class="progresso-info">
+                <div class="barra-progresso-fundo">
+                  <div class="barra-progresso-preenchimento" style="width: 85%;"></div>
+                </div>
+                <div class="progresso-valores">
+                  <span><strong>Arrecadado:</strong> R$ 51.000</span>
+                  <span><strong>Meta:</strong> R$ 60.000 (85%)</span>
+                </div>
+              </div>
+              <p class="beneficiarios"><strong>Beneficiários:</strong> 500 famílias</p>
+              <button class="btn btn-primario full-width" data-abrir-modal data-projeto="Prato Cheio">Apoiar Projeto</button>
+            </div>
+          </article>
+
+          <!-- Projeto 6 -->
+          <article class="card card-projeto-detalhado" data-categoria="educacao">
+            <img src="img/projetos/projeto-conectados.webp" alt="Jovens utilizando notebooks em espaço comunitário digital" width="800" height="600" loading="lazy">
+            <div class="card-corpo">
+              <span class="badge badge-educacao">Educação</span>
+              <h3>Conectados</h3>
+              <p>Inclusão digital e disponibilização de laboratórios de informática com acesso à internet.</p>
+              
+              <div class="progresso-info">
+                <div class="barra-progresso-fundo">
+                  <div class="barra-progresso-preenchimento" style="width: 40%;"></div>
+                </div>
+                <div class="progresso-valores">
+                  <span><strong>Arrecadado:</strong> R$ 14.000</span>
+                  <span><strong>Meta:</strong> R$ 35.000 (40%)</span>
+                </div>
+              </div>
+              <p class="beneficiarios"><strong>Beneficiários:</strong> 150 jovens</p>
+              <button class="btn btn-primario full-width" data-abrir-modal data-projeto="Conectados">Apoiar Projeto</button>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção Calculadora de Doação e Como Doar -->
+    <section id="doe" class="doacao-section" aria-labelledby="titulo-doacao">
+      <div class="container">
+        <h2 id="titulo-doacao" class="titulo-secao text-center">Simule a Sua Doação</h2>
+        <div class="grid-doacao">
+          
+          <div class="calculadora-box">
+            <h3>Calculadora de Impacto</h3>
+            <p>Veja exatamente como a sua contribuição mensal faz a diferença na vida das nossas famílias:</p>
+            
+            <div class="campo-grupo">
+              <label for="valor-doacao">Escolha ou digite um valor (R$):</label>
+              <input type="number" id="valor-doacao" min="10" step="10" value="50">
+            </div>
+
+            <div class="impacto-resultado">
+              <p>Com esse valor, você proporciona durante 1 mês:</p>
+              <div id="resultado-impacto" class="resultado-destaque">
+                <strong>1 Cesta Básica Completa</strong> + apoio educacional para 1 criança.
+              </div>
+            </div>
+
+            <button class="btn btn-destaque full-width mt-3" data-abrir-modal>Fazer Doação Agora</button>
+          </div>
+
+          <div class="chaves-pix-box">
+            <h3>Outras Formas de Doar</h3>
+            <p>Faça uma transferência instantânea diretamente para a nossa conta oficial:</p>
+            <div class="pix-card">
+              <p><strong>Chave PIX (CNPJ):</strong></p>
+              <p class="chave-codigo">12.345.678/0001-90</p>
+              <p><strong>Banco:</strong> Banco do Brasil (001)</p>
+              <p><strong>Agência:</strong> 1234-5 | <strong>Conta:</strong> 98765-4</p>
+              <p><strong>Favorecido:</strong> ONG Mãos que Transformam</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção de Voluntariado -->
+    <section id="voluntariado" class="voluntariado-section" aria-labelledby="titulo-voluntariado">
+      <div class="container text-center">
+        <h2 id="titulo-voluntariado" class="titulo-secao">Seja um Voluntário</h2>
+        <p class="lead">Doe seu tempo, conhecimento e carinho. Temos vagas para mentores, profissionais de saúde, apoio logístico e muito mais.</p>
+        <a href="cadastro.html" class="btn btn-primario btn-lg">Preencher Formulário de Voluntário</a>
+      </div>
+    </section>
+
+    <!-- Galeria de Fotos -->
+    <section class="galeria-section" aria-labelledby="titulo-galeria">
+      <div class="container">
+        <h2 id="titulo-galeria" class="titulo-secao text-center">Nossa Galeria de Ações</h2>
+        <div class="grid-galeria">
+          <img src="img/galeria/galeria-01.webp" alt="Crianças sorrindo enquanto pintam mural comunitário" width="1200" height="800" loading="lazy">
+          <img src="img/galeria/galeria-02.webp" alt="Voluntários entregando mochilas e kits escolares" width="1200" height="800" loading="lazy">
+          <img src="img/galeria/galeria-03.webp" alt="Moradores trabalhando juntos em uma horta comunitária" width="1200" height="800" loading="lazy">
+          <img src="img/galeria/galeria-04.webp" alt="Adolescentes em oficina de robótica e programação" width="1200" height="800" loading="lazy">
+          <img src="img/galeria/galeria-05.webp" alt="Atendimento em tenda de feira de saúde comunitária" width="1200" height="800" loading="lazy">
+          <img src="img/galeria/galeria-06.webp" alt="Celebração comunitária ao ar livre com dança e música" width="1200" height="800" loading="lazy">
+        </div>
+      </div>
+    </section>
+
+    <!-- Parceiros -->
+    <section class="parceiros-section" aria-labelledby="titulo-parceiros">
+      <div class="container">
+        <h2 id="titulo-parceiros" class="titulo-secao text-center">Organizações Parceiras</h2>
+        <div class="grid-parceiros">
+          <img src="img/parceiros/parceiro-01.svg" alt="Logotipo da Fundação Esperança" width="300" height="100" loading="lazy">
+          <img src="img/parceiros/parceiro-02.svg" alt="Logotipo do Instituto Verde" width="300" height="100" loading="lazy">
+          <img src="img/parceiros/parceiro-03.svg" alt="Logotipo da Empresa Solidária S.A." width="300" height="100" loading="lazy">
+          <img src="img/parceiros/parceiro-04.svg" alt="Logotipo do Colégio Nova Geração" width="300" height="100" loading="lazy">
+          <img src="img/parceiros/parceiro-05.svg" alt="Logotipo da Prefeitura de São Paulo" width="300" height="100" loading="lazy">
+          <img src="img/parceiros/parceiro-06.svg" alt="Logotipo do Banco do Brasil" width="300" height="100" loading="lazy">
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Modal do Doação (Estrutura para JS) -->
+  <div class="modal-overlay" id="modal-doacao" aria-hidden="true" role="dialog" aria-labelledby="modal-titulo">
+    <div class="modal-container">
+      <button class="modal-fechar" data-fechar-modal aria-label="Fechar modal">&times;</button>
+      <h3 id="modal-titulo">Apoiar a ONG Mãos que Transformam</h3>
+      <p>Sua doação ajuda a manter nossas portas abertas e expandir o atendimento em comunidades de São Paulo.</p>
+      
+      <form id="form-doacao-modal">
+        <div class="campo-grupo">
+          <label for="modal-valor">Valor da Doação (R$)</label>
+          <input type="number" id="modal-valor" value="50" min="5" required>
+        </div>
+        <div class="campo-grupo">
+          <label for="modal-nome">Nome Completo</label>
+          <input type="text" id="modal-nome" required>
+        </div>
+        <div class="campo-grupo">
+          <label for="modal-email">E-mail</label>
+          <input type="email" id="modal-email" required>
+        </div>
+        <button type="submit" class="btn btn-destaque full-width">Finalizar Doação via PIX / Cartão</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Rodapé -->
+  <footer class="footer">
+    <div class="container grid-footer">
+      
+      <div class="footer-coluna">
+        <img src="img/logo.svg" alt="Logotipo ONG Mãos que Transformam" width="160" height="50" loading="lazy">
+        <p>Juntos, transformamos realidades através da solidariedade, educação e sustentabilidade desde 2010.</p>
+      </div>
+
+      <div class="footer-coluna">
+        <h3>Links Rápidos</h3>
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="projetos.html">Nossos Projetos</a></li>
+          <li><a href="#voluntariado">Voluntariado</a></li>
+          <li><a href="#doe">Faça uma Doação</a></li>
+          <li><a href="cadastro.html">Cadastro de Voluntário</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-coluna">
+        <h3>Projetos</h3>
+        <ul>
+          <li><a href="#educacao">Educação para Todos</a></li>
+          <li><a href="#meio-ambiente">Verde Vivo</a></li>
+          <li><a href="#capacitacao">Mãos que Capacitam</a></li>
+          <li><a href="#saude">Saúde em Ação</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-coluna">
+        <h3>Redes Sociais</h3>
+        <ul class="redes-sociais">
+          <li><a href="https://instagram.com/maosquetransformam" target="_blank" rel="noopener noreferrer" aria-label="Instagram da ONG">Instagram</a></li>
+          <li><a href="https://facebook.com/maosquetransformam" target="_blank" rel="noopener noreferrer" aria-label="Facebook da ONG">Facebook</a></li>
+          <li><a href="https://linkedin.com/company/maosquetransformam" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn da ONG">LinkedIn</a></li>
+          <li><a href="https://youtube.com/maosquetransformam" target="_blank" rel="noopener noreferrer" aria-label="YouTube da ONG">YouTube</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container text-center">
+        <p>&copy; 2026 ONG Mãos que Transformam — CNPJ 12.345.678/0001-90. Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
